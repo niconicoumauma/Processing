@@ -7,7 +7,7 @@ int lineMax = 300;
 int cellMax = 300;
 
 // -- setup --
-size(lineMax, cellMax);
+size(cellMax, lineMax);
 colorMode(RGB, 256);
 
 cells = new int[lineMax][cellMax];
