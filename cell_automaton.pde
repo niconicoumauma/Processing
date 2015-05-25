@@ -1,4 +1,3 @@
-int width = 300, height = 300;
 int prev;
 int now;
 int next;
@@ -8,10 +7,10 @@ int lineMax = 300;
 int cellMax = 300;
 
 // -- setup --
-size(width, height);
+size(lineMax, cellMax);
 colorMode(RGB, 256);
 
-cells = new int[300][300];
+cells = new int[lineMax][cellMax];
 
 for(int i=0; i<cellMax; i++){
   cells[0][i] = 0;
